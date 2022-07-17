@@ -19,10 +19,12 @@ h3, h4, p{
 
 
 /* ##### CSS FOR TOP HEADER SECTION ##### */
-#top-header{
+#top-header {
     width: 100%;
     height: 50px;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
 }
 
 .container{
@@ -36,16 +38,93 @@ h3, h4, p{
     justify-content: space-between;
 }
 
-.contact-buddy{
+.contact-buddy {
     display: flex;
-    width: 200px;
+    width: 370px;
     justify-content: space-between;
 }
+.email, .phone a {
+    color: #64687e;
+}
+.email a{
+    color: #64687e;
+}
+.con {
+    margin-right: 5px;
+    color: #9b9b9b;
+    font-size: 14px;
+}
 
+.top-icons a {
+    margin: 0 13px;
+    font-size: 14px;
+    color: lightgray;
+}
 
+.top-icons a:hover{
+    color: #FF9C00;
+    transition: .3s;
+}
 
+i.fa-solid.fa-user {
+    margin-right: 7px;
+}
 
+/* ##### CSS FOR NAV SECTION ####### */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#nav-section {
+    width: 100%;
+    /* background: lightblue; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 200px;
+}
+
+.nav-logo img {
+    width: 74%;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 0 18px;
+}
+
+ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #64687e;
+}
+
+a.btn {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #ddd;
+    padding: 10px 33px;
+    border-radius: 30px;
+    background: transparent;
+    color: #64687e;
+}
+
+a.btn i {
+    margin-right: 5px;
+    font-size: 22px;
+}
 
 
 
