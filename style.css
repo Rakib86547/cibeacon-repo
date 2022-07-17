@@ -81,7 +81,7 @@ nav {
 section#nav-section {
     width: 100%;
     /* background: lightblue; */
-    height: 100px;
+    height: 120px;
     display: flex;
     align-items: center;
 }
@@ -92,6 +92,7 @@ section#nav-section {
 
 .nav-logo img {
     width: 74%;
+    cursor: pointer;
 }
 
 ul {
@@ -100,6 +101,11 @@ ul {
 
 ul li {
     margin: 0 18px;
+}
+
+ul li:hover a{
+    color: #FF9C00;
+    transition: .3s;
 }
 
 ul li a {
@@ -119,6 +125,12 @@ a.btn {
     border-radius: 30px;
     background: transparent;
     color: #64687e;
+}
+
+a.btn:hover{
+    background: #FF9C00;
+    transition: .3s;
+    color: #fff;
 }
 
 a.btn i {
